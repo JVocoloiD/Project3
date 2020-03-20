@@ -1,7 +1,7 @@
 /* ADD THE EQUALS METHOD AND IMPLEMENT THE COMPARABLE INTERFACE */
 /* MAKE NO OTHER CHANGES TO THIS FILE */
 
-public abstract class Animal  {
+public abstract class Animal implements Comparable<Animal> {
 
 	private int id;
 	private String name;
@@ -47,5 +47,25 @@ public abstract class Animal  {
 	// abstract methods to implement in child classes
 	public abstract boolean isWarmBlooded();
 	public abstract String getDescription();
-	
+
+	@Override
+	public boolean equals(Object obj){
+		if(obj instanceof Animal){
+			Animal otherAnimal = (Animal) obj;
+
+			boolean sameName = name.equalsIgnoreCase(otherAnimal.name);
+			boolean sameID = id == otherAnimal.id;
+
+			return sameName && sameID;
+		}
+		else{
+			return false;
+		}
+	}
+
+	@Override
+	public int compareTo(Animal otherAnimal){
+		return name.compareToIgnoreCase(otherAnimal.name);
+	}
+
 }
