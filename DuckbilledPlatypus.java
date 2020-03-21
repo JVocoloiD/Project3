@@ -1,2 +1,2 @@
-public class DuckbilledPlatypus extends Animal {
+public class DuckbilledPlatypus extends Mammal {
 }

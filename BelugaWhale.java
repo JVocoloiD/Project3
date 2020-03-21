@@ -1,2 +1,2 @@
-public class BelugaWhale extends Animal {
+public class BelugaWhale extends Whale {
 }

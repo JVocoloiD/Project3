@@ -1,2 +1,2 @@
-public class Goldfish extends Animal {
+public class Goldfish extends Fish {
 }

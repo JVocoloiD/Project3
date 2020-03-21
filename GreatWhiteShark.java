@@ -1,2 +1,2 @@
-public class GreatWhiteShark extends Animal {
+public class GreatWhiteShark extends Fish implements Endangered {
 }

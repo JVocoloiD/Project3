@@ -1,2 +1,2 @@
-public class Elephant extends Animal {
+public class Elephant extends Mammal implements Endangered {
 }

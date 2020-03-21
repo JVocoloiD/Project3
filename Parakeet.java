@@ -1,2 +1,2 @@
-public class Parakeet extends Animal {
+public class Parakeet extends Bird {
 }
