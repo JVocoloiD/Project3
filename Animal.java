@@ -36,7 +36,7 @@ public abstract class Animal implements Comparable<Animal> {
 		return name;
 	}
 
-	// toString method will create text with name, id, birth type, warm/cold blodded, and the description
+	// toString method will create text with name, id, birth type, warm/cold blooded, and the description
 	@Override
 	public final String toString() {
 		return name + " (id=" + id + "):\t" + birthType.toString() + "\t" +

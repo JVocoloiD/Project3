@@ -11,8 +11,9 @@ public abstract class Bird extends Animal implements Winged{
         return true;
     }
 
-    //    @Override
-//    public boolean canFly() {
-//        return false;
-//    }
+    public abstract boolean canFly();
+    
+    public String getDesription(){
+    		return "Bird";
+    }
 }

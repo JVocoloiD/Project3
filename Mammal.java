@@ -1,3 +1,4 @@
+
 public abstract class Mammal extends Animal {
 
     private final static BirthType DEFAULT_BIRTHTYPE = BirthType.LIVE_BIRTH;

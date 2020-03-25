@@ -1,3 +1,4 @@
+
 public class Ostrich extends Bird {
     public Ostrich(int id, String name) {
         super(id, name);
@@ -10,6 +11,6 @@ public class Ostrich extends Bird {
 
     @Override
     public String getDescription() {
-
+    		return super.getDesription() + "	" + "Ostrich (winged, can't fly)" ;
     }
 }

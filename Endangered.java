@@ -1,5 +1,4 @@
+
 public interface Endangered {
-
-    void displayConservationInformation();
-
+	void displayConservationInformation();
 }
