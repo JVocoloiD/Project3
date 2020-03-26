@@ -1,3 +1,4 @@
+ 
 public abstract class Whale extends Mammal implements WaterDwellers {
 
     public Whale(int id, String name) {

@@ -95,19 +95,23 @@ public class AnimalKingdomDriver {
 		for(Animal animal : animalList) {
 			if(animal instanceof WaterDwellers){
 				if(((WaterDwellers) animal).breathesAir() == true){
-					System.out.println(animal.getName() + "breathes air");
+					System.out.println(animal.getName() + " breathes air");
 				}
 				else if(((WaterDwellers) animal).breathesAir() == false){
-						System.out.println(animal.getName() + "breathes water");
+						System.out.println(animal.getName() + " breathes water");
 				}
+			}
 		}
 		
 		System.out.println("\n\n******TEST ENDANGERED ANIMALS");
 		System.out.println("Should print 4 lines for Cali, Irrelephant, Spouty, and Toothy.\n");
 		for(Animal animal : animalList) {
-			// YOUR CODE HERE
+			if(animal instanceof Endangered){
+				System.out.print(animal.getName() + " is "); ((Endangered) animal).displayConservationInformation();
+			}
 		}
 		
+		
+		
 	}
-
 }

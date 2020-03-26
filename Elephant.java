@@ -6,7 +6,7 @@ public class Elephant extends Mammal implements Endangered {
 
     @Override
     public void displayConservationInformation() {
-        System.out.println("something");
+        System.out.println("endangered");
     }
 
     @Override

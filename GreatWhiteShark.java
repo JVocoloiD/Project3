@@ -12,6 +12,6 @@ public class GreatWhiteShark extends Fish implements Endangered {
 	}
     @Override
     public void displayConservationInformation() {
-    		System.out.println("Vulnerable");
+    		System.out.println("vulnerable");
     }
 }
